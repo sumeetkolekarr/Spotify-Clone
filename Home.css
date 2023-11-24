@@ -9,8 +9,7 @@
 }
 
 body {
-    background: url("./Resources/bg.jpg");
-    background-size: cover;
+    background-color: #71D3FA;
     color: white;
     margin: 0;
     padding: 0;
@@ -91,7 +90,7 @@ body::-webkit-scrollbar-thumb {
     cursor: pointer;
 }
 
-.songinfo-container{
+.songinfo-container {
     display: flex;
     align-items: center;
 }

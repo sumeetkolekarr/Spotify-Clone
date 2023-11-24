@@ -15,8 +15,7 @@
     height: 600px;
     background: red;
     overflow: hidden;
-    background: url("./Resources/bg.jpg") no-repeat center;
-    background-size: cover;
+    background-color: #71D3FA;
     border-radius: 10px;
     box-shadow: 5px 20px 50px #000;
 }

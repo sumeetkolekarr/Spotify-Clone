@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player</title>
+
+    <script src="https://kit.fontawesome.com/5eb2c51ffb.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="player.css" />
+</head>
+
+<body>
+    <div class="player">
+        <div class="player__header">
+        <div class="player__img player__img--absolute slider">
+        <button class="player__button player__button--absolute--nw playlist">
+        <img src="http://physical-authority.surge.sh/imgs/icon/playlist.svg" alt="playlist-icon">
+        </button>
+        <button class="player__button player__button--absolute--center play">
+        <img src="http://physical-authority.surge.sh/imgs/icon/play.svg" alt="play-icon">
+        <img src="http://physical-authority.surge.sh/imgs/icon/pause.svg" alt="pause-icon">
+        </button>
+        <div class="slider__content">
+        <img class="img slider__img" src="https://www.cinejosh.com/newsimg/newsmainimg/speculation-on-jailer-movie-story_b_0601230549.jpg" alt="cover">
+        <img class="img slider__img" src="https://images.cinemaexpress.com/uploads/user/imagelibrary/2023/7/17/original/hukum_1.jpg" alt="cover">
+        <img class="img slider__img" src="https://th.bing.com/th/id/OIP.WY_LSa6GsLpuQFUeORVw7gHaHa?pid=ImgDet&rs=1" alt="cover">
+        <img class="img slider__img" src="https://www.lyricsrk.com/wp-content/uploads/2023/08/31-1.jpg" alt="cover">
+        <img class="img slider__img" src="https://i.ytimg.com/vi/ohS06vkHjLE/maxresdefault.jpg" alt="cover">
+        <img class="img slider__img" src="http://physical-authority.surge.sh/imgs/6.jpg" alt="cover">
+        <img class="img slider__img" src="http://physical-authority.surge.sh/imgs/7.jpg" alt="cover">
+        </div>
+        </div>
+        <div class="player__controls">
+        <button class="player__button back">
+        <img class="img" src="http://physical-authority.surge.sh/imgs/icon/back.svg" alt="back-icon">
+        </button>
+        <p class="player__context slider__context">
+        <strong class="slider__name"></strong>
+        <span class="player__title slider__title"></span>
+        </p>
+        <button class="player__button next">
+        <img class="img" src="http://physical-authority.surge.sh/imgs/icon/next.svg" alt="next-icon">
+        </button>
+        <div class="progres">
+        <div class="progres__filled"></div>
+        </div>
+        </div>
+        </div>
+        <ul class="player__playlist list">
+        <li class="player__song">
+        <img class="player__img img" src="https://www.cinejosh.com/newsimg/newsmainimg/speculation-on-jailer-movie-story_b_0601230549.jpg" alt="cover">
+        <p class="player__context">
+        <b class="player__song-name">Hukum</b>
+        <span class="flex">
+        <span class="player__title">Jailer</span>
+        <span class="player__song-time"></span>
+        </span>
+        </p>
+        <audio class="audio" src="/Hukum---Thalaivar-Alappara-MassTamilan.dev.mp3"></audio>
+        </li>
+        <li class="player__song">
+        <img class="player__img img" src="https://images.cinemaexpress.com/uploads/user/imagelibrary/2023/7/17/original/hukum_1.jpg" alt="cover">
+        <p class="player__context">
+        <b class="player__song-name">Alappara-Theme</b>
+        <span class="flex">
+        <span class="player__title">Jailer</span>
+        <span class="player__song-time"></span>
+        </span>
+        </p>
+        <audio class="audio" src="/Alappara-Theme-(Instrumental)-MassTamilan.dev.mp3"></audio>
+        </li>
+       
+        <li class="player__song">
+        <img class="player__img img" src="https://th.bing.com/th/id/OIP.WY_LSa6GsLpuQFUeORVw7gHaHa?pid=ImgDet&rs=1" alt="cover">
+        <p class="player__context ">
+        <b class="player__song-name">Jadd</b>
+        <span class="flex">
+        <span class="player__title">Gulli Mata</span>
+        <span class="player__song-time"></span>
+        </span>
+        </p>
+        <audio class="audio" src="/Guli Mata_64(PagalWorld.com.se).mp3"></audio>
+        </li>
+        <li class="player__song">
+        <img class="player__img img" src="https://www.lyricsrk.com/wp-content/uploads/2023/08/31-1.jpg" alt="cover">
+        <p class="player__context">
+        <b class="player__song-name">Chelleya</b>
+        <span class="flex">
+        <span class="player__title">Jawan</span>
+        <span class="player__song-time"></span>
+        </span>
+        </p>
+        <audio class="audio" src="Chaleya_64(PagalWorld.com.se).mp3"></audio>
+        </li>
+        <li class="player__song">
+        <img class="player__img img" src="https://i.ytimg.com/vi/ohS06vkHjLE/maxresdefault.jpg" alt="cover">
+        <p class="player__context ">
+        <b class="player__song-name">Not Ramaiya vasatvaiya</b>
+        <span class="flex">
+        <span class="player__title">Jawan</span>
+        <span class="player__song-time"></span>
+        </span>
+        </p>
+        <audio class="audio" src="/Not Ramaiya Vastavaiya_64(PagalWorld.com.se).mp3"></audio>
+        </li>
+        </ul>
+        </div>
+        <script src="player.js"></script>
+
+</html>
